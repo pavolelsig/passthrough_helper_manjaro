@@ -1,0 +1,5 @@
+#!/bin/bash
+build() {
+    add_file /usr/bin/vfio-pci-override.sh
+    add_runscript
+}

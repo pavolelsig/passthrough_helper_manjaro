@@ -1,0 +1,6 @@
+#!/usr/bin/ash
+
+run_hook() {
+    msg ":: Triggering vfio-pci override"
+    /bin/sh /usr/bin/vfio-pci-override.sh
+}
