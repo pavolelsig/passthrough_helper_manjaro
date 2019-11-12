@@ -12,7 +12,9 @@ kvm.ignore_msrs=on
 Add this to /etc/mkinitcpio.conf:
 
 Modules="vfio_pci vfio vfio_iommu_type1 vfio_virqfd"
+
 Files="/usr/bin/vfio-pci-override.sh"
+
 Hooks="... vfio ...."
 
 
