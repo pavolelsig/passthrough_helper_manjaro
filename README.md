@@ -7,7 +7,7 @@ Add this to grub, /etc/default/grub:
 
 intel_iommu=on (or) amd_iommu=on\
 rd.driver.pre=vfio-pc\
-kvm.ignore_msrs=on
+kvm.ignore_msrs=1
 
 
 Add this to /etc/mkinitcpio.conf:
