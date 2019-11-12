@@ -3,7 +3,7 @@
 Run this script using su instead of sudo. The ">" redirects of echo will not work otherwise. 
 
 
-Add this to grub, /etc/default/grub:\
+Add this to grub, /etc/default/grub:
 
 intel_iommu=on (or) amd_iommu=1\
 rd.driver.pre=vfio-pc\
