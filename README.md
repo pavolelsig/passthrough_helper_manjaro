@@ -5,7 +5,7 @@ Run this script using su instead of sudo. The ">" redirects of echo will not wor
 
 Add this to grub, /etc/default/grub:
 
-intel_iommu=on (or) amd_iommu=1\
+intel_iommu=on (or) amd_iommu=on\
 rd.driver.pre=vfio-pc\
 kvm.ignore_msrs=on\
 Add this to /etc/mkinitcpio.conf:
