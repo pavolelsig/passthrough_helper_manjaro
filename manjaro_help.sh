@@ -7,7 +7,7 @@ nano /etc/default/grub
 
 update-grub
 
-pacman -S qemu virt-manager ovmf dnsmasq ebtables iptables
+pacman -S vim qemu virt-manager ovmf dnsmasq ebtables iptables
 
 systemctl enable libvirtd.service
 
