@@ -15,6 +15,8 @@ systemctl enable libvirtd.service
 
 cp vfio-pci-override.sh /usr/bin/vfio-pci-override.sh
 
+chmod + x /usr/bin/vfio-pci-override.sh
+
 cp vfio-install /etc/initcpio/install/vfio
 
 cp vfio-hooks /etc/initcpio/hooks/vfio
