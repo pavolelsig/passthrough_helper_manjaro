@@ -26,9 +26,9 @@ cp vfio.conf /etc/modprobe.d/
 
 ############################
 
-#Modules="vfio_pci vfio vfio_iommu_type1 vfio_virqfd"
-#Files="/usr/bin/vfio-pci-override.sh"
-#Hooks="... vfio ...."
+#MODULES="vfio_pci vfio vfio_iommu_type1 vfio_virqfd"
+#FILES="/usr/bin/vfio-pci-override.sh"
+#HOOKS="... vfio ...."
 
 
 
