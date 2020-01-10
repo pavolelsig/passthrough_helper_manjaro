@@ -6,14 +6,14 @@ Run this script using su instead of sudo. The ">" redirects of echo will not wor
 Add this to grub, /etc/default/grub:
 
 intel_iommu=on (or) amd_iommu=on\
-rd.driver.pre=vfio-pc\
+rd.driver.pre=vfio-pci\
 kvm.ignore_msrs=1
 
 
 Add this to /etc/mkinitcpio.conf:
 
-Modules="vfio_pci vfio vfio_iommu_type1 vfio_virqfd"\
-Files="/usr/bin/vfio-pci-override.sh"\
+MODULES="vfio_pci vfio vfio_iommu_type1 vfio_virqfd"\
+FILES="/usr/bin/vfio-pci-override.sh"\
 Hooks="... vfio ...."
 
 
