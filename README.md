@@ -19,6 +19,6 @@ Hooks="... vfio ...."
 
 This guide is based on: 
 
-https://wiki.archlinux.org/index.php/PCI_passthrough_via_OVMF#Using_identical_guest_and_host_GPUs
-and
+https://wiki.archlinux.org/index.php/PCI_passthrough_via_OVMF#Using_identical_guest_and_host_GPUs\
+and\
 https://forum.manjaro.org/t/virt-manager-fails-to-detect-ovmf-uefi-firmware/110072
