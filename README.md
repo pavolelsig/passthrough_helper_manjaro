@@ -1,4 +1,4 @@
-# passthrough_helper_manjaro
+# Passthrough Helper for Manjaro
 
 Run this script using su instead of sudo. The ">" redirects of echo will not work otherwise. 
 
@@ -16,6 +16,8 @@ MODULES="vfio_pci vfio vfio_iommu_type1 vfio_virqfd"\
 FILES="/usr/bin/vfio-pci-override.sh"\
 Hooks="... vfio ...."
 
+
+For a tutorial, visit: https://www.youtube.com/watch?v=QlGx0XvWuag
 
 This guide is based on: 
 
