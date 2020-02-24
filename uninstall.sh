@@ -22,4 +22,5 @@ if [ -a Backup/mkinitcpio.conf ]
 		cp Backup/mkinitcpio.conf /etc/
 fi
 
+mkinitcpio -P
 
